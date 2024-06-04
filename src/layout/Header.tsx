@@ -24,7 +24,7 @@ const Header = ({ isAdmin }: HeaderProps) => {
           {isAdmin ? (
             <UserName>Admin</UserName>
           ) : (
-            <UserName>이패스 님</UserName>
+            <UserName>게스트 님</UserName>
           )}
 
           <Icon icon="user" />
